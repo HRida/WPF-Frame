@@ -1,0 +1,15 @@
+﻿<Page x:Class="Restaurant.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="Menu Selection">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Select your meal type" VerticalAlignment="Top" Margin="0,20,0,0"/>
+        <RadioButton Name="sandwichRadioButton" Content="Sandwich" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" IsChecked="True" Checked="sandwichRadioButton_Checked"/>
+        <RadioButton Name="plateRadioButton" Content="Platter" HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top" Checked="plateRadioButton_Checked"/>
+    </Grid>
+</Page>
